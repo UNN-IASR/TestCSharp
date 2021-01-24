@@ -1,17 +1,14 @@
 name: .NET
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
+
 
 jobs:
-  build:
+ build:
 
-runs-on: windows-latest
+  runs-on: windows-latest
 
-    steps:
+  steps:
     - uses: actions/checkout@v1
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
