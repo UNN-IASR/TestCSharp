@@ -14,7 +14,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod2()
         {
-            int result = ConsoleApp1.Program.sum(3, 4);
+            int result = ConsoleApp1.Program.add(3, 4);
             Assert.IsTrue(result == 7);
         }
     }
