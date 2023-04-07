@@ -27,11 +27,5 @@ namespace UnitTestProject1
             int result = ConsoleApp1.Program.add(3, 4);
             Assert.IsTrue(result == 7);
         }
-        [TestMethod]
-        public void TestMethod3()
-        {
-            var asm = Assembly.GetExecutingAssembly();
-            Assert.IsTrue(true);
-        }
     }
 }
