@@ -5,7 +5,7 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
-        
+
         [TestMethod()]
         [DeploymentItem("testFile1.xml")]
         public void ConstructorTest()
@@ -27,7 +27,7 @@ namespace UnitTestProject1
             Assert.IsTrue(result == 7);
         }
         [TestMethod]
-        public void TestMethod2()
+        public void TestMethod3()
         {
             var asm = Assembly.GetExecutingAssembly();
             Assert.IsTrue(true);
