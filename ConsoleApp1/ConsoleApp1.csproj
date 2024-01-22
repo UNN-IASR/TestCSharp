@@ -2,7 +2,7 @@
   <PropertyGroup>
      <RootNamespace>ConsoleApp1</RootNamespace>
      <AssemblyName>ConsoleApp1</AssemblyName>
-     <TargetFramework>netcoreapp3.1</TargetFramework>
+     <TargetFramework>netcoreapp7.0</TargetFramework>
   </PropertyGroup>
   <Target Name="Build">
     <Csc Sources="@(Compile)"/>  
